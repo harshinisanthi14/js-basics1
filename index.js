@@ -1,7 +1,8 @@
-function greet(name,age) {
-    console.log('hello ' + name + ' , ' + age);
+function square(number){
+    return number * number;
 }
 
-greet('Harshi',21);
-greet('bintu',19);
-greet('bhar',20);
+console.log(square(2));
+
+let number=square(2);
+console.log(number);
