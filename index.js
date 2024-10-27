@@ -1,5 +1,16 @@
-let name='Harshi';
-let age=30;
-let isApproved=true;
-let firstName=undefine;
-let selectedColor = null;
+let person={
+    name:'Harshi',
+    age:21
+};
+
+//dot notation
+person.name='sagar';
+
+//bracket notation
+person[name]='jo';
+
+let selection='name';
+person[selection]='ud';
+
+
+console.log(person[selection]);
