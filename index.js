@@ -1,3 +1,3 @@
-const element=document.getElementById("fruits");
-const lastChild=element.lastElementChild;
-lastChild.style.backgroundColor="yellow";
+const element=document.getElementById("apple");
+const nextSibling=element.nextElementSibling;
+nextSibling.style.backgroundColor="yellow";
