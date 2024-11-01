@@ -1,3 +1,3 @@
-const element=document.getElementById("desserts");
-const prevSibling =element.previousElementSibling;
-prevSibling.style.backgroundColor="yellow"
+const element=document.getElementById("mango");
+const parent =element.parentElement;
+parent.style.backgroundColor="yellow";
