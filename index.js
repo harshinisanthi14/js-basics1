@@ -1,3 +1,3 @@
-document.title="my website";
-document.body.style.backgroundColor ="black";
-console.log(document);
+const username="harshi";
+const welcomemsg = document.getElementById("welcome-msg");
+welcomemsg.textcontent += username === "" ? 'Guest' : username;
