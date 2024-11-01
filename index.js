@@ -1,3 +1,3 @@
-const username="harshi";
-const welcomemsg = document.getElementById("welcome-msg");
-welcomemsg.textcontent += username === "" ? 'Guest' : username;
+const element=document.getElementById("fruits");
+const firstChild=element.firstElementChild;
+firstChild.style.backgroundColor="Yellow";
