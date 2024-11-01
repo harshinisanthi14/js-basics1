@@ -1,3 +1,7 @@
-const element=document.getElementById("fruits");
-const firstChild=element.firstElementChild;
-firstChild.style.backgroundColor="Yellow";
+const ulElements=document.querySelectorAll("ul");
+
+ulElements.forEach(ulElement => {
+    const firstChild=ulElement.firstElementChild;
+    firstChild.style.backgroundColor="yellow";
+});
+
